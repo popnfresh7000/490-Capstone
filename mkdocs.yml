@@ -1,3 +1,38 @@
-site_name: My Docs
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Derek's Capstone Project
 theme:
   name: material
+  features:
+    navigation.tabs
+    navigation.instant
+    navigation.sections
+    navigation.expand
+    toc.integrate
+    navigation.top
+    search.suggest
+    search.highlight
+    contant.tabs.link
+  language: en
+  palette:
+    - scheme: default
+      toggle: 
+        icon: material/toggle-switch-off-outline
+        name: Dark Mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Light Mode
+      primary: teal
+      accent: lime    
+      
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/popnfresh7000
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/derek-williams-b5a5394/
+
+copyright: |
+  &copy; 2023 Derek Williams
